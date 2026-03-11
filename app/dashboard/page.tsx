@@ -13,13 +13,11 @@ const TOTAL_WEEKS = 18
 const SEMESTER_START = new Date('2026-03-18')
 
 function getCurrentWeek(): number {
-  // TODO: restore date-based logic before deployment
-  // const now = new Date()
-  // const diff = now.getTime() - SEMESTER_START.getTime()
-  // if (diff < 0) return 0
-  // const weekNum = Math.floor(diff / (7 * 24 * 60 * 60 * 1000)) + 1
-  // return Math.min(weekNum, TOTAL_WEEKS)
-  return TOTAL_WEEKS // all weeks open for testing
+  const now = new Date()
+  const diff = now.getTime() - SEMESTER_START.getTime()
+  if (diff < 0) return 0
+  const weekNum = Math.floor(diff / (7 * 24 * 60 * 60 * 1000)) + 1
+  return Math.min(weekNum, TOTAL_WEEKS)
 }
 
 type WeekStatus = 'completed' | 'draft' | 'current' | 'upcoming'
@@ -43,9 +41,12 @@ export default function DashboardPage() {
       const entry = data?.find((e: { week_number: number; is_draft: boolean }) => e.week_number === w)
       if (entry) {
         statuses[w] = entry.is_draft ? 'draft' : 'completed'
-      } else {
-        // All weeks open for testing (TODO: restore week gating before deployment)
+      } else if (w === currentWeek && currentWeek > 0) {
         statuses[w] = 'current'
+      } else if (w < currentWeek && currentWeek > 0) {
+        statuses[w] = 'current' // past weeks still open for late submission
+      } else {
+        statuses[w] = 'upcoming'
       }
     }
     setWeekStatuses(statuses)
