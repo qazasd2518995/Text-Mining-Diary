@@ -22,7 +22,6 @@ export default function DiaryEntryPage() {
   const [saving, setSaving] = useState(false)
   const [submitting, setSubmitting] = useState(false)
   const [lastSaved, setLastSaved] = useState<Date | null>(null)
-  const [entryId, setEntryId] = useState<number | null>(null)
   const [validationErrors, setValidationErrors] = useState<string[]>([])
 
   const autoSaveRef = useRef<ReturnType<typeof setInterval> | null>(null)
@@ -64,7 +63,7 @@ export default function DiaryEntryPage() {
 
     const data = rows?.[0]
     if (data) {
-      setEntryId(data.id)
+      // entry exists, will be updated via upsert
       const loaded: FormData = {}
       for (const section of sections) {
         for (const q of section.questions) {
@@ -149,10 +148,6 @@ export default function DiaryEntryPage() {
     // They are stored in students table, but include them if columns exist
     // Actually, Q5-Q7 are stored in students table, not diary_entries
 
-    if (entryId) {
-      payload.id = entryId
-    }
-
     return payload
   }
 
@@ -162,14 +157,11 @@ export default function DiaryEntryPage() {
 
     try {
       const payload = buildUpsertPayload(data, true)
-      const { data: result, error } = await supabase
+      const { error } = await supabase
         .from('diary_entries')
         .upsert(payload, { onConflict: 'student_id,week_number' })
-        .select('id')
-        .single()
 
-      if (!error && result) {
-        setEntryId(result.id)
+      if (!error) {
         setLastSaved(new Date())
       }
     } catch {
