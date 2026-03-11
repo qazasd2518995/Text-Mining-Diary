@@ -173,11 +173,11 @@ export const sections: Section[] = [
     questions: [
       { id: 'Q26', dbField: 'q26_memorable_interaction', type: 'textarea', labelEn: 'Describe your most memorable AI interaction this week. What happened and why was it significant?', labelZh: '你印象最深的 AI 互動？為什麼？', required: true },
       { id: 'Q27', dbField: 'q27_prompt_revision', type: 'textarea', labelEn: 'Did you revise any prompts? Describe what you changed, why, and whether it worked better.', labelZh: '你有修改 prompt 嗎？請描述過程。', required: true },
-      { id: 'Q29', dbField: 'q29_emotional_trajectory', type: 'textarea', labelEn: 'How did your emotions change during the process of refining your prompts?', labelZh: '修改 prompt 過程中的情緒如何轉變？', required: true },
+      { id: 'Q28', dbField: 'q28_emotional_trajectory', type: 'textarea', labelEn: 'How did your emotions change during the process of refining your prompts?', labelZh: '修改 prompt 過程中的情緒如何轉變？', required: true },
       // E-2 Group Collaboration Reflection
-      { id: 'Q31', dbField: 'q31_received_help', type: 'textarea', labelEn: 'Did a teammate help you with AI prompting or a text-mining technique this week? If yes, describe what happened and whether that person was more experienced or at a similar level to you.', labelZh: '本週是否有組員幫助你？請描述經過，說明該組員是否比你更有經驗。', isGroupItem: true, required: true },
-      { id: 'Q32', dbField: 'q32_gave_help', type: 'textarea', labelEn: 'Did you help a teammate this week? If yes, describe what you helped with and how.', labelZh: '本週你是否幫助了組員？請描述。', isGroupItem: true, required: true },
-      { id: 'Q33', dbField: 'q33_composition_theorisation', type: 'textarea', labelEn: 'How do you feel your group\'s mix of experience levels (or lack of mix) affected your learning and AI use this week? Would you prefer a different group composition? Why or why not?', labelZh: '你覺得小組經驗組合如何影響你本週的學習與 AI 使用？你會偏好不同的組合嗎？', isGroupItem: true, required: true },
+      { id: 'Q29', dbField: 'q29_received_help', type: 'textarea', labelEn: 'Did a teammate help you with AI prompting or a text-mining technique this week? If yes, describe what happened and whether that person was more experienced or at a similar level to you.', labelZh: '本週是否有組員幫助你？請描述經過，說明該組員是否比你更有經驗。', isGroupItem: true, required: true },
+      { id: 'Q30', dbField: 'q30_gave_help', type: 'textarea', labelEn: 'Did you help a teammate this week? If yes, describe what you helped with and how.', labelZh: '本週你是否幫助了組員？請描述。', isGroupItem: true, required: true },
+      { id: 'Q31', dbField: 'q31_composition_theorisation', type: 'textarea', labelEn: 'How do you feel your group\'s mix of experience levels (or lack of mix) affected your learning and AI use this week? Would you prefer a different group composition? Why or why not?', labelZh: '你覺得小組經驗組合如何影響你本週的學習與 AI 使用？你會偏好不同的組合嗎？', isGroupItem: true, required: true },
     ],
   },
   {
@@ -187,9 +187,9 @@ export const sections: Section[] = [
     instructionEn: 'These final items help ensure data quality.',
     instructionZh: '請誠實作答。',
     questions: [
-      { id: 'Q34a', dbField: 'q34a_honesty', type: 'likert', labelEn: 'I answered this diary honestly and thoughtfully.', labelZh: '我誠實且認真地回答', required: true },
-      { id: 'Q34b', dbField: 'q34b_comprehension', type: 'likert', labelEn: 'I understood all of the questions in this diary.', labelZh: '我理解所有問題', required: true },
-      { id: 'Q35', dbField: 'q35_attention_check', type: 'likert', labelEn: 'Attention check: Please select "4" for this item.', labelZh: '注意力檢查：請選擇「4」。', required: true },
+      { id: 'Q32a', dbField: 'q32a_honesty', type: 'likert', labelEn: 'I answered this diary honestly and thoughtfully.', labelZh: '我誠實且認真地回答', required: true },
+      { id: 'Q32b', dbField: 'q32b_comprehension', type: 'likert', labelEn: 'I understood all of the questions in this diary.', labelZh: '我理解所有問題', required: true },
+      { id: 'Q33', dbField: 'q33_attention_check', type: 'likert', labelEn: 'Attention check: Please select "4" for this item.', labelZh: '注意力檢查：請選擇「4」。', required: true },
     ],
   },
 ]

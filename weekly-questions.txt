@@ -247,29 +247,21 @@ Instruction: Answer in 2–4 sentences.
    你有修改 prompt 嗎？請描述過程。
    Type: Open-ended (textarea)
 
-* Q28. What would you do differently if you could redo this week's work?
-   如果再做一次，你會怎麼改進？
-   Type: Open-ended (textarea)
-
-* Q29. How did your emotions change during the process of refining your prompts?
+* Q28. How did your emotions change during the process of refining your prompts?
    修改 prompt 過程中的情緒如何轉變？
-   Type: Open-ended (textarea)
-
-* Q30. What is one thing you learned about interacting effectively with GenAI?
-   你本週學到什麼關於有效使用 GenAI？
    Type: Open-ended (textarea)
 
 --- E-2: Group Collaboration Reflection ---
 
-*◆ Q31. Did a teammate help you with AI prompting or a text-mining technique this week? If yes, describe what happened and whether that person was more experienced or at a similar level to you.
+*◆ Q29. Did a teammate help you with AI prompting or a text-mining technique this week? If yes, describe what happened and whether that person was more experienced or at a similar level to you.
    本週是否有組員幫助你？請描述經過，說明該組員是否比你更有經驗。
    Type: Open-ended (textarea)
 
-*◆ Q32. Did you help a teammate this week? If yes, describe what you helped with and how.
+*◆ Q30. Did you help a teammate this week? If yes, describe what you helped with and how.
    本週你是否幫助了組員？請描述。
    Type: Open-ended (textarea)
 
-*◆ Q33. How do you feel your group's mix of experience levels (or lack of mix) affected your learning and AI use this week? Would you prefer a different group composition? Why or why not?
+*◆ Q31. How do you feel your group's mix of experience levels (or lack of mix) affected your learning and AI use this week? Would you prefer a different group composition? Why or why not?
    你覺得小組經驗組合如何影響你本週的學習與 AI 使用？你會偏好不同的組合嗎？
    Type: Open-ended (textarea)
 
@@ -281,14 +273,14 @@ Instruction: These final items help ensure data quality.
 指引：請誠實作答。
 =====================================
 
-* Q34a. I answered this diary honestly and thoughtfully.
+* Q32a. I answered this diary honestly and thoughtfully.
    我誠實且認真地回答
    Type: Likert 1–5
 
-* Q34b. I understood all of the questions in this diary.
+* Q32b. I understood all of the questions in this diary.
    我理解所有問題
    Type: Likert 1–5
 
-* Q35. Attention check: Please select "4" for this item.
+* Q33. Attention check: Please select "4" for this item.
    注意力檢查：請選擇「4」。
    Type: Likert 1–5
