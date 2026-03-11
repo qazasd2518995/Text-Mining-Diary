@@ -173,9 +173,7 @@ export const sections: Section[] = [
     questions: [
       { id: 'Q26', dbField: 'q26_memorable_interaction', type: 'textarea', labelEn: 'Describe your most memorable AI interaction this week. What happened and why was it significant?', labelZh: '你印象最深的 AI 互動？為什麼？', required: true },
       { id: 'Q27', dbField: 'q27_prompt_revision', type: 'textarea', labelEn: 'Did you revise any prompts? Describe what you changed, why, and whether it worked better.', labelZh: '你有修改 prompt 嗎？請描述過程。', required: true },
-      { id: 'Q28', dbField: 'q28_improvement', type: 'textarea', labelEn: 'What would you do differently if you could redo this week\'s work?', labelZh: '如果再做一次，你會怎麼改進？', required: true },
       { id: 'Q29', dbField: 'q29_emotional_trajectory', type: 'textarea', labelEn: 'How did your emotions change during the process of refining your prompts?', labelZh: '修改 prompt 過程中的情緒如何轉變？', required: true },
-      { id: 'Q30', dbField: 'q30_ai_literacy', type: 'textarea', labelEn: 'What is one thing you learned about interacting effectively with GenAI?', labelZh: '你本週學到什麼關於有效使用 GenAI？', required: true },
       // E-2 Group Collaboration Reflection
       { id: 'Q31', dbField: 'q31_received_help', type: 'textarea', labelEn: 'Did a teammate help you with AI prompting or a text-mining technique this week? If yes, describe what happened and whether that person was more experienced or at a similar level to you.', labelZh: '本週是否有組員幫助你？請描述經過，說明該組員是否比你更有經驗。', isGroupItem: true, required: true },
       { id: 'Q32', dbField: 'q32_gave_help', type: 'textarea', labelEn: 'Did you help a teammate this week? If yes, describe what you helped with and how.', labelZh: '本週你是否幫助了組員？請描述。', isGroupItem: true, required: true },

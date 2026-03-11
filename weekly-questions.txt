@@ -1,0 +1,294 @@
+=====================================
+Section A: Identification & Group Profile
+基本資訊與分組檔案
+Instruction: Please provide identification and group information.
+指引：請填寫識別與分組資訊。
+=====================================
+
+[Week 1 Only]
+*◆ Q5. How would you describe your own prior experience with text mining or text analytics BEFORE this course?
+   在修這門課之前，你對文本探勘/文本分析的經驗程度如何？
+   Type: Radio (single select)
+   Options:
+     (0) No experience at all / 完全沒有經驗
+     (1) Limited experience — basic tasks / 有限經驗
+     (2) Moderate experience — completed coursework or a project / 中等經驗
+     (3) Substantial experience — applied in research or industry / 豐富經驗
+
+*◆ Q6. Your group number:
+   你的分組編號：
+   Type: Dropdown
+   Options: Group 1–6 / 第 1–6 組
+
+*◆ Q7. To the best of your knowledge, how would you describe the experience composition of your group?
+   據你所知，你的分組組成經驗如何？
+   Type: Radio (single select)
+   Options:
+     - All members are new to text mining / 所有人都是新手
+     - Some members had prior experience while others were new / 部分有經驗，部分新手
+     - I'm not sure / 我不確定
+
+[Every Week]
+* Q3. Which GenAI tool(s) did you primarily use this week?
+   你這週主要使用哪些 GenAI 工具？
+   Type: Checkbox (multi-select) + Other free text
+   Options:
+     □ ChatGPT
+     □ Claude
+     □ Gemini
+     □ Copilot
+     □ Other / 其他: ___________
+
+* Q4. Link to this week's GenAI conversation log
+   你這週與 GenAI 的對話連結
+   Type: URL
+
+
+=====================================
+Section B: Learning & Collaboration Context
+週學習與合作情境
+Instruction: Briefly describe what you studied and accomplished this week.
+指引：請簡要描述本週學習內容與完成事項。
+=====================================
+
+--- B-1: Task Context ---
+
+* Q8. What were the main topics or techniques covered this week?
+   本週主要學習內容是什麼？
+   Type: Text
+
+* Q9. Which specific tasks did you complete?
+   你完成了哪些任務？
+   Type: Text
+
+* Q10. Perceived difficulty of this week's tasks
+   本週任務的難度
+   Type: Likert 1–5 (1 = Very easy 非常簡單 ... 5 = Very difficult 非常困難)
+
+--- B-2: Group Collaboration Dynamics ---
+Scale: 1 = Strongly disagree 非常不同意 ... 5 = Strongly agree 非常同意
+
+*◆ Q11a. A teammate with more experience helped me understand a concept or technique this week.
+   本週有較有經驗的組員幫助我理解某個概念或技術
+
+*◆ Q11b. I shared a useful AI prompt or strategy with my teammates.
+   我向組員分享了有用的 AI prompt 或策略
+
+*◆ Q11c. A teammate shared an AI prompt or approach that I then adopted or adapted.
+   組員分享了我後來採用或調整的 AI prompt 或方法
+
+*◆ Q11d. Our group discussed or compared different AI outputs before deciding on a solution.
+   我們小組在決定方案前會討論或比較不同 AI 輸出
+
+*◆ Q11e. In my group, there is a clear 'go-to person' who leads the AI or coding work.
+   在我的小組中，有一個明確的人主導 AI 或程式工作
+
+*◆ Q12a. Having teammates with different experience levels helped our group learn more effectively.
+   組員經驗不同有助於更有效學習
+
+*◆ Q12b. I sometimes felt left behind because other teammates knew more than me.
+   我有時覺得被落下，因為其他組員知道的比我多
+
+*◆ Q12c. I sometimes felt held back because other teammates knew less than me.
+   我有時覺得被拖慢，因為其他組員知道的比我少
+
+*◆ Q12d. Everyone in my group contributed roughly equally this week.
+   本週每個人的貢獻大致相等
+
+
+=====================================
+Section C: AI Interaction & Dependency
+AI 互動行為與依賴
+Instruction: Reflect on how you used GenAI this week.
+指引：請回顧你本週如何使用 GenAI。
+=====================================
+
+--- C-1: Prompt Strategy ---
+
+* Q13. Which prompt types did you use this week? (Select all that apply)
+   你本週的 prompt 類型有哪些？（可複選）
+   Type: Checkbox (multi-select) + Other free text
+   Options:
+     □ Initial query — First prompt on a new topic or task / 初始提問
+     □ Clarification request — Asking AI to explain an unclear response / 請求解釋
+     □ Debug / error correction — Submitting errors for fixing / Debug/修錯
+     □ Prompt refinement — Revising your prompt for better results / 修改 prompt
+     □ Elaboration request — Asking for more detail or examples / 要求更多細節
+     □ Confirmation / verification — Checking if AI output is correct / 驗證答案
+     □ Direct answer request — Asking AI to give an answer directly / 直接索取答案
+     □ Metacognitive prompting — Asking AI to explain its reasoning / 後設認知提問
+     □ Other / 其他: ___________
+
+*◆ Q14. For the prompt strategies you used this week, where did they primarily come from?
+   你本週使用的 prompt 策略主要來源為何？
+   Type: Checkbox (multi-select) + Other free text
+   Options:
+     □ I developed them myself through trial and error / 我自己摸索出來的
+     □ I learned them from a more experienced teammate / 從較有經驗的組員學來的
+     □ I learned them from a teammate who was also new / 從同樣是新手的組員學來的
+     □ I found them online or in course materials / 從網路或課程教材學來的
+     □ Other / 其他: ___________
+
+--- C-2: Purpose of AI Use ---
+
+* Q15. What were your main purposes for using GenAI this week?
+   你使用 GenAI 的主要目的？
+   Type: Checkbox (multi-select) + Other free text
+   Options:
+     □ Understanding concepts / 理解概念
+     □ Debugging code / Debug
+     □ Generating code / 產生程式碼
+     □ Optimising output / results / 優化結果
+     □ Checking / verifying my own work / 檢查自己的工作
+     □ Learning new techniques / 學習新技術
+     □ Other / 其他: ___________
+
+--- C-3: AI Response Quality ---
+Scale: 1 = Very poor 非常差 ... 5 = Excellent 非常好
+
+* Q16a. Accuracy — responses were factually correct / 正確性
+* Q16b. Clarity — responses were easy to understand / 清楚程度
+* Q16c. Actionability — responses could be directly applied / 可操作性
+* Q16d. Trustworthiness — I felt I could rely on them / 可信度
+* Q16e. Relevance — responses addressed what I asked / 相關性
+
+* Q17. What was most helpful about the AI responses, and what was missing or unhelpful?
+   他給了什麼幫助？缺少什麼？
+   Type: Open-ended (textarea)
+
+--- C-4: AI Dependency vs. Learner Agency ---
+Scale: 1 = Strongly disagree 非常不同意 ... 5 = Strongly agree 非常同意
+
+* Q18a. I relied heavily on AI to complete this week's tasks.
+   我依賴 AI 的程度很高
+
+* Q18b. I attempted to solve problems on my own before turning to AI.
+   我先嘗試自己解決再用 AI
+
+* Q18c. I critically evaluated AI outputs rather than accepting them directly.
+   我會批判性評估 AI 輸出
+
+* Q18d. Without AI, I would not have been able to complete the tasks.
+   沒有 AI 我無法完成任務
+
+* Q18e. I used AI as a starting point, then modified the results myself.
+   我將 AI 當起點再自己修改
+
+*◆ Q19a. Because I could ask teammates for help, I relied on AI less.
+   因為可以問組員，我對 AI 的依賴降低
+
+*◆ Q19b. My teammates and I checked each other's AI outputs before using them.
+   我和組員會互相檢查 AI 輸出後才使用
+
+
+=====================================
+Section D: Academic Emotions (CVT)
+學習情緒
+Instruction: Rate how strongly you experienced each emotion this week.
+指引：請評估本週學習情緒感受程度。
+Scale: 1 = Not at all 完全沒有 ... 5 = Very strongly 非常強烈
+=====================================
+
+--- D-1: Positive Activating ---
+* Q20a. I felt confident about completing the tasks / 我對完成任務有信心
+* Q20b. I felt curious and wanted to explore further / 我感到好奇
+* Q20c. I felt a sense of enjoyment while working / 我感到享受
+* Q20d. I felt proud of what I achieved / 我感到驕傲
+
+--- D-2: Positive Deactivating ---
+* Q21a. I felt satisfied with my learning progress / 我感到滿足
+* Q21b. I felt a sense of relief after completing tasks / 我感到放鬆
+
+--- D-3: Negative Activating ---
+* Q22a. I felt frustrated during this week's tasks / 我感到挫折
+* Q22b. I felt anxious about my ability to succeed / 我感到焦慮
+* Q22c. I felt angry when things did not work as expected / 我感到憤怒
+* Q22d. I felt ashamed when I could not understand the material / 我感到慚愧
+
+--- D-4: Negative Deactivating ---
+* Q23a. I felt bored during this week's learning / 我感到無趣
+* Q23b. I felt hopeless about making progress / 我感到絕望
+
+--- D-5: Group Social-Comparison Emotions ---
+*◆ Q24a. I felt encouraged by working with teammates who knew more than me.
+   與比我有經驗的組員合作讓我受鼓勵
+
+*◆ Q24b. I felt inadequate compared to more experienced teammates.
+   與更有經驗的組員相比我覺得不足
+
+*◆ Q24c. I felt a sense of belonging in my group.
+   我在小組中感到有歸屬感
+
+*◆ Q24d. I felt motivated by seeing how my teammates used AI.
+   看到組員用 AI 讓我有動力
+
+*◆ Q24e. I felt pressure to keep up with my teammates' pace.
+   我感到壓力要跟上組員的進度
+
+* Q25. Were there any other emotions not listed above? Please describe.
+   是否有其他情緒？請描述。
+   Type: Open-ended (textarea)
+
+
+=====================================
+Section E: Metacognitive & Group Reflection
+後設認知與小組反思
+Instruction: Answer in 2–4 sentences.
+指引：請以 2–4 句回答。
+=====================================
+
+--- E-1: Individual Reflection ---
+
+* Q26. Describe your most memorable AI interaction this week. What happened and why was it significant?
+   你印象最深的 AI 互動？為什麼？
+   Type: Open-ended (textarea)
+
+* Q27. Did you revise any prompts? Describe what you changed, why, and whether it worked better.
+   你有修改 prompt 嗎？請描述過程。
+   Type: Open-ended (textarea)
+
+* Q28. What would you do differently if you could redo this week's work?
+   如果再做一次，你會怎麼改進？
+   Type: Open-ended (textarea)
+
+* Q29. How did your emotions change during the process of refining your prompts?
+   修改 prompt 過程中的情緒如何轉變？
+   Type: Open-ended (textarea)
+
+* Q30. What is one thing you learned about interacting effectively with GenAI?
+   你本週學到什麼關於有效使用 GenAI？
+   Type: Open-ended (textarea)
+
+--- E-2: Group Collaboration Reflection ---
+
+*◆ Q31. Did a teammate help you with AI prompting or a text-mining technique this week? If yes, describe what happened and whether that person was more experienced or at a similar level to you.
+   本週是否有組員幫助你？請描述經過，說明該組員是否比你更有經驗。
+   Type: Open-ended (textarea)
+
+*◆ Q32. Did you help a teammate this week? If yes, describe what you helped with and how.
+   本週你是否幫助了組員？請描述。
+   Type: Open-ended (textarea)
+
+*◆ Q33. How do you feel your group's mix of experience levels (or lack of mix) affected your learning and AI use this week? Would you prefer a different group composition? Why or why not?
+   你覺得小組經驗組合如何影響你本週的學習與 AI 使用？你會偏好不同的組合嗎？
+   Type: Open-ended (textarea)
+
+
+=====================================
+Section F: Response Validity Check
+作答有效性檢核
+Instruction: These final items help ensure data quality.
+指引：請誠實作答。
+=====================================
+
+* Q34a. I answered this diary honestly and thoughtfully.
+   我誠實且認真地回答
+   Type: Likert 1–5
+
+* Q34b. I understood all of the questions in this diary.
+   我理解所有問題
+   Type: Likert 1–5
+
+* Q35. Attention check: Please select "4" for this item.
+   注意力檢查：請選擇「4」。
+   Type: Likert 1–5
