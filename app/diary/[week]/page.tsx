@@ -236,7 +236,7 @@ export default function DiaryEntryPage() {
         }
       }
 
-      router.push('/dashboard')
+      router.replace('/dashboard')
     } catch {
       alert('An error occurred. Please try again.')
     } finally {

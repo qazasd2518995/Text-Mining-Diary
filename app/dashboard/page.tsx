@@ -59,6 +59,13 @@ export default function DashboardPage() {
     }
     setStudent(stored)
     fetchEntries(stored.student_id).finally(() => setLoading(false))
+
+    // Refetch when user returns to this tab/page
+    const handleFocus = () => {
+      if (stored) fetchEntries(stored.student_id)
+    }
+    window.addEventListener('focus', handleFocus)
+    return () => window.removeEventListener('focus', handleFocus)
   }, [router, fetchEntries])
 
   const handleLogout = () => {
