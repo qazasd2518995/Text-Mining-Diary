@@ -9,8 +9,8 @@ import WeekCard from '@/components/WeekCard'
 
 const TOTAL_WEEKS = 18
 
-// Semester starts on the week of Mar 18, 2026 (Wednesday)
-const SEMESTER_START = new Date('2026-03-18')
+// Semester starts on the week of Mar 25, 2026 (Wednesday)
+const SEMESTER_START = new Date('2026-03-25')
 
 function getCurrentWeek(): number {
   const now = new Date()
